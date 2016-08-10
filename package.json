@@ -1,0 +1,21 @@
+{
+  "name": "mccann",
+  "version": "1.0.0",
+  "description": "Prueba Front End",
+  "main": "dest/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "GitHub"
+  },
+  "author": "Brayan Camargo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-server-livereload": "^1.8.1"
+  }
+}
