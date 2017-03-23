@@ -1,5 +1,6 @@
 #Carpeta node_modules#
 node_modules/
+recursos/
 
 # OS generated files #
 .DS_Store
@@ -31,3 +32,9 @@ $RECYCLE.BIN/
 
 #Prepros
 prepros.cfg
+
+
+
+#SoloParaProyectoComprimidos
+*.zip
+*.rar

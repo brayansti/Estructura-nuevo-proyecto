@@ -1,0 +1,46 @@
+// Variables __ ↓↓↓↓↓↓ __
+// Colores↓↓
+$negro: #292929;
+$blanco: #ffffff;
+$azul-1: #0074a6;
+$azul-2: #002947;
+$azul-3: #10192b;
+$verde: #87c543;
+$gris: #dfdfdf;
+$gris-texto: #dfdfdf;
+
+
+// →→ Base → (Descomentar si se necesitan) ↓↓↓
+@import 'base/grid'; // →→ Grilla de boostrap
+@import 'base/reset';
+@import 'base/mediaquerys';
+@import 'base/general';
+@import 'base/fonts';
+
+
+// →→ Utilidades → (Descomentar si se necesitan) ↓↓↓
+@import 'utilidades/flex';
+@import 'utilidades/mixins';
+// @import 'utilidades/animaciones';
+
+
+// →→ Librerias → (Descomentar si se necesitan) ↓↓↓
+//@import 'libraries/animateCSS'
+
+
+// →→ Componentes → (Descomentar si se necesitan) ↓↓↓
+// @import 'componentes/menu-hamburger';
+// @import 'componentes/tablas';
+// @import 'componentes/select';
+// @import 'componentes/carousel';
+// @import 'componentes/cajas';
+
+
+// →→ layouts → (Descomentar si se necesitan) ↓↓↓
+@import 'layouts/header';
+@import 'layouts/footer';
+
+
+// →→ Pages → (Descomentar si se necesitan) ↓↓↓
+// @import 'pages/login';
+// @import 'pages/home';
