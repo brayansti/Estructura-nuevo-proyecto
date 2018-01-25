@@ -1,12 +1,12 @@
 {
-  "name": "Quench",
+  "name": "EstructuraGulp",
   "version": "1.0.0",
-  "description": "A Gulp file and project generator.",
+  "description": "Estructura gulp para proyectos.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Quench",
+  "author": "Brayan Camargo",
   "license": "ISC",
   "devDependencies": {
     "gulp": "3.9.1",
