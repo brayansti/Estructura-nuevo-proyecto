@@ -1,3 +1,10 @@
+/*!
+ * Desarrollo y maquetacion por Brayan Camargo https://brayansti.github.io
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Brayan Camargo
+ */
+
 // Variables __ ↓↓↓↓↓↓ __
 // Colores↓↓
 $negro: #292929;
@@ -12,10 +19,10 @@ $gris-texto: #dfdfdf;
 
 // →→ Base → (Descomentar si se necesitan) ↓↓↓
 @import 'base/grid'; // →→ Grilla de boostrap
-@import 'base/reset';
 @import 'base/mediaquerys';
-@import 'base/general';
+@import 'base/reset';
 @import 'base/fonts';
+@import 'base/general';
 
 
 // →→ Utilidades → (Descomentar si se necesitan) ↓↓↓
@@ -34,6 +41,8 @@ $gris-texto: #dfdfdf;
 // @import 'componentes/select';
 // @import 'componentes/carousel';
 // @import 'componentes/cajas';
+// @import 'componentes/botones';
+// @import 'componentes/formularios';
 
 
 // →→ layouts → (Descomentar si se necesitan) ↓↓↓
@@ -44,3 +53,10 @@ $gris-texto: #dfdfdf;
 // →→ Pages → (Descomentar si se necesitan) ↓↓↓
 // @import 'pages/login';
 // @import 'pages/home';
+
+/*!
+ * Desarrollo y maquetacion por Brayan Camargo https://brayansti.github.io
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Brayan Camargo
+ */

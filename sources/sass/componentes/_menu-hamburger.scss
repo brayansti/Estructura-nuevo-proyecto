@@ -1,25 +1,30 @@
 
-$bar-width: 19px;
+$bar-width: 25px;
 $bar-height: 3px;
-$bar-spacing: 6px;
+$bar-spacing: 8px;
+$activate-border-radius: true;
 $bar-color: rgba(255, 255, 255, 1);
 
 .hamburger-menu {
-    position: absolute;
-    top: 0;
-    // left: 0;
+    z-index: 2;
+    top: 1.5rem;
     right: 1.5rem;
-    bottom: 0;
-    margin: auto;
-    width: $bar-width;
-    height: $bar-height + $bar-spacing*2;
     cursor: pointer;
-
+    width: $bar-width;
+    position: absolute;
+    height: $bar-height + $bar-spacing*2;
+    display: none;
+    @media #{$media-movil}{
+        display: block;
+    }
     .bar,
     .bar:after,
     .bar:before {
         width: $bar-width;
         height: $bar-height;
+        @if $activate-border-radius {
+            border-radius: $bar-height;
+        }
     }
 
     .bar {

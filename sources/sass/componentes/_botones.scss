@@ -5,7 +5,16 @@ label.btn{
 }
 
 .btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
     @include transition(0.3);
+    @include inline-flex;
+    @include align-items(center);
+    @include justify-content(center);
     &__blanco{
         padding-top: 12px;
         font-size: 1.1rem;

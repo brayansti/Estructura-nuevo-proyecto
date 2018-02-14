@@ -1,6 +1,14 @@
 #Carpeta node_modules#
 node_modules/
 recursos/
+deploy/vendor/
+deploy/.env
+composer.lock
+deploy/css/main.css
+deploy/css/main.min.css
+deploy/css/maps/
+deploy/js/mainscript.js
+deploy/js/mainscript.min.js
 
 # OS generated files #
 .DS_Store
